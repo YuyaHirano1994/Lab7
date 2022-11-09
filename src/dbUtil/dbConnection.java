@@ -11,9 +11,9 @@ public class dbConnection {
 
     public static Connection getConnection() {
         try {
-            String USERNAME = "postgres";
-            String PASSWORD = "2bfw3uPuyUzvDRBX";
-            String URL = "jdbc:postgresql://db.plbuoqmxofuihydrbcdn.supabase.co:5432/postgres";
+            String USERNAME = "";
+            String PASSWORD = "";
+            String URL = "";
             return DriverManager.getConnection(URL, USERNAME, PASSWORD);
         } catch (SQLException e) {
             e.printStackTrace();
